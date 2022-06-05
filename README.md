@@ -5,9 +5,14 @@ Install the required node modules by running:
 npm install
 ```
 
-Try running some of the following tasks:
+Compile the curcuit:
 
 ```shell
 . scripts/compile-mugwump-groth16.sh
+```
+
+Test:
+
+```shell
 node scripts/bump-solidity.js && npx hardhat test
 ```
